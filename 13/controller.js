@@ -6,7 +6,7 @@ app.config(function($routeProvider) {
 		templateUrl: 'home.html'
 	})
 	.when('/anotherPage', {
-		template: 'anotherPage.html'
+		templateUrl: 'anotherPage.html'
 	})
 	.otherwise({
 		redirectTo: '/'
